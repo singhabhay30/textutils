@@ -36,14 +36,17 @@ function App() {
   const yellowclick = () => {
     console.log("Yes");
     document.body.style.background = "#CAB911";
+    showAlert("Yellow Mode Activated", "success");
   };
 
   const redclick = () => {
     document.body.style.background = "#C15031";
+    showAlert("Red Mode Activated", "success");
   };
 
   const greenclick = () => {
     document.body.style.backgroundColor = "#35C649";
+    showAlert("Green Mode Activated", "success");
   };
   return (
     <>
